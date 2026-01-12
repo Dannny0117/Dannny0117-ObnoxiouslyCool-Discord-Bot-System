@@ -1,2 +1,111 @@
-# Dannny0117-ObnoxiouslyCool-Discord-Bot-System
-Node.js Discord streamer bot + web dashboard • Commands • Games • Points • Ranks • Moderation • Welcome cards
+# Discord Streamer Bot (Node.js Edition)
+
+A powerful, modern **Discord bot** rebuilt from the ground up in **100% Node.js**, bringing back the classic **Mixer / Scorpbot**-style streamer experience — now with a beautiful **web-based admin dashboard** for full control.
+
+This bot includes commands, mini-games, points system, ranks, moderation tools, welcome cards, boost celebrations, and much more — just like your original Mixer bot, but now running natively on Discord with a professional web interface.
+
+<p align="center">
+  <a href="https://discord.dannny0117.com">
+    <img src="https://img.shields.io/badge/Join%20Our%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord Server">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://snapchat.com/add/dannny0117">
+    <img src="https://img.shields.io/badge/Snapchat-@dannny0117-FFFC00?style=for-the-badge&logo=snapchat&logoColor=black" alt="Snapchat @dannny0117">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://x.com/dannny0117">
+    <img src="https://img.shields.io/badge/X-@dannny0117-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter @dannny0117">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://tiktok.com/@dannny0117">
+    <img src="https://img.shields.io/badge/TikTok-@dannny0117-FF0050?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok @dannny0117">
+  </a>
+</p>
+
+[![Discord.js](https://img.shields.io/badge/discord.js-v14-blue.svg)](https://discord.js.org/)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D16.9.0-brightgreen.svg)](https://nodejs.org/)
+
+## ✨ Features
+
+- **Bad Word Filtering**
+  - Advanced pattern matching (detects variations, l33t speak, spacing tricks)
+  - Customizable word list (`badwords.txt`)
+  - **Auto-reload on file changes** (no restart needed!)
+  - Regex pattern support
+  - Auto-delete + instant quarantine
+
+- **Link & Invite Blocking**
+  - Block all links by default
+  - Whitelist safe domains (YouTube, Twitch, GitHub, etc.)
+  - **ALWAYS blocks Discord invite links** (even in promo channels)
+  - Channel-based exceptions (e.g., `#self-promo`)
+
+- **Spam Detection**
+  - Rate limit detection (5 messages in 5 seconds - configurable)
+  - Duplicate message detection (3+ identical messages - configurable)
+  - Auto-quarantine spam offenders
+
+- **Mass Mention Protection**
+  - Configurable mention limit (default: 4 per message)
+  - Prevents mention spam attacks
+  - Instant quarantine for violations
+
+### Quarantine System
+- **Automatic Role Management**
+  - Creates `Quarantined` role automatically
+  - 20-second timeout (configurable)
+  - Can only view `#read-me-first` channel
+  - Cannot type, react, or join voice anywhere
+  - Auto-removes role after timeout
+
+### Warning System
+- **Persistent Tracking**
+  - Never resets (permanent log)
+  - Tracks all violations per user
+  - Displays warning count in embeds
+  - Detailed violation history
+
+### Core Streamer Experience
+- Custom **commands** (`!commands`, `!so`, `!clip`, custom user commands, etc.)
+- **Points / currency system** — earn points by chatting, playing games, daily bonuses
+- **Ranks & levels** with automatic role assignment
+- **Leaderboard** (points, levels, wins, activity)
+
+### Moderation & Safety
+- Auto-moderation (bad words filter, spam detection, link blocking)
+- **Warnings system** with configurable punishments
+- Mass **delete user messages** (last X messages or everything)
+- Logging of commands, moderation actions & important events
+
+### Engagement Features
+- Beautiful **welcome cards** with custom images, colors, and messages
+- Special **server boost celebration** messages & rewards
+- Custom **responses / chat triggers** (on message, keyword, etc.)
+
+### Web Dashboard
+Admin panel with:
+- Real-time **bot statistics** (users, uptime, active responses, warnings…)
+- **Quick actions**: delete messages, clear warnings, grant points, reload config
+- Manage: custom responses, bad words list, welcome settings, boost settings
+- View & edit **leaderboards**, logs, warnings
+
+## 🛠️ Tech Stack
+- **Runtime**: Node.js
+- **Discord library**: discord.js v14+
+
+## 📸 Screenshots
+
+### Dashboard Overview
+![Dashboard Overview](https://github.com/user-attachments/assets/b4a22c13-4e6b-472c-b045-6db49f273211)
+
+### Welcome Cards Settings
+![Welcome Cards Settings](https://github.com/user-attachments/assets/9d0d6628-2951-4df8-b6d7-376560f28e30)
+
+### All Settings Pages
+![All Settings](https://github.com/user-attachments/assets/e778cc1b-1b54-4282-88a8-d588d66fb25c)
+
+### Welcome Card Preview (in Discord)
+![Welcome Card in Discord](https://github.com/user-attachments/assets/f47b8d37-ed6c-4362-b5a6-c72cfb0dd258)
+
+### Bot Appearance & Commands (in Discord)
+![Bot in Action](https://github.com/user-attachments/assets/76cdf5bb-5cd6-4629-87ae-14eb79671cc6)
