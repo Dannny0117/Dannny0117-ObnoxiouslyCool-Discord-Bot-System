@@ -96,16 +96,40 @@ Admin panel with:
 ## 📸 Screenshots
 
 ### Dashboard Overview
-![Dashboard Overview](https://github.com/user-attachments/assets/b4a22c13-4e6b-472c-b045-6db49f273211)
 
-### Welcome Cards Settings
-![Welcome Cards Settings](https://github.com/user-attachments/assets/9d0d6628-2951-4df8-b6d7-376560f28e30)
+![Dashboard Overview](https://github.com/user-attachments/assets/d538f19a-ba7b-4753-8e24-ec67127332fc)
 
-### All Settings Pages
-![All Settings](https://github.com/user-attachments/assets/e778cc1b-1b54-4282-88a8-d588d66fb25c)
+###  User Management
 
-### Welcome Card Preview (in Discord)
-![Welcome Card in Discord](https://github.com/user-attachments/assets/f47b8d37-ed6c-4362-b5a6-c72cfb0dd258)
+![Users Overview](https://github.com/user-attachments/assets/689b93de-10bd-4de7-98d9-048465917165)
 
-### Bot Appearance & Commands (in Discord)
-![Bot in Action](https://github.com/user-attachments/assets/76cdf5bb-5cd6-4629-87ae-14eb79671cc6)
+###  Moderation Settings
+
+![Moderation Overview](https://github.com/user-attachments/assets/e73ac830-113e-419b-825d-4952cb3ca197)
+
+
+###  Interactions & Responses
+
+![Interactions Overview](https://github.com/user-attachments/assets/83c7c21d-05b4-4d17-8310-500128687bfc)
+
+###  Mini-Games & Economy
+
+![Mini-Games & Economy Overview](https://github.com/user-attachments/assets/a74eec0d-155a-41cb-b4c2-6cc059f0e7d8)
+
+###  Rank Management
+
+![Rank Management Overview](https://github.com/user-attachments/assets/43e2303a-0a4a-41fe-ab98-02d6252f4321)
+
+###  Card & Embed Customization
+
+
+![Card & Embed Overview](https://github.com/user-attachments/assets/77c076ad-f6db-4bc8-b9f8-d02cb1941860)
+
+###  Bot's Discord activity status
+
+![Bot Status Overview](https://github.com/user-attachments/assets/29f1c741-4f51-45a5-81d6-661a47e237c4)
+
+### General Settings
+
+![Bot Settings](https://github.com/user-attachments/assets/5a3d0a04-51c8-45d6-993d-570f6de7994b)
+
